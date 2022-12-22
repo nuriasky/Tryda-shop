@@ -1,3 +1,11 @@
+:root {
+    --1: #0f1014ff;
+    --2: #202932ff;
+    --3: #c4c7c9ff;
+    --4: #67fdf1ff;
+    --5: #45a39eff;
+  }
+
 header {
     display: block;
     position: fixed;
