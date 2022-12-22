@@ -3,8 +3,8 @@ header {
     position: fixed;
     width: 100%;
     padding-left: 10px;
-    padding-right: 10px;
-    height: 70px;
+    padding-right: 50px;
+    height: 60px;
     background: white;
 }
 
@@ -13,11 +13,11 @@ header {
     align-items: center;
     flex-wrap: wrap;
     box-sizing: border-box;
+    height: 75px;
     margin: 0rem 2rem 0rem 0.3rem;
     box-shadow:
     0.3em 0.1em 0.6em rgba(41, 41, 41, 0.3);
     font-family: 'poppins';
-
 }
 
 #sp-logo {
@@ -57,7 +57,7 @@ a {
 }
 
 .caja {
-    padding: 1rem;
+    padding: 0.5rem;
 
 }
 
