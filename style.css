@@ -40,10 +40,9 @@ img {
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    gap: 0rem;
-    padding: 0rem 40rem;
+    padding: 0rem 30rem;
 }
 
 .content {
