@@ -20,9 +20,9 @@ header {
     height: 75px;
     padding: 0rem 3rem;
     font-family: 'poppins';
-    border-radius: 0rem 0rem 1rem 1rem;
     box-shadow:
     0.3em 0.1em 0.6em rgba(41, 41, 41, 0.3);
+
 }
 
 #sp-logo {
@@ -66,4 +66,107 @@ a {
     transition-property: color;
         transition-duration: 500ms;
         transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+/* SECTION */
+
+main {
+    display: flex;
+    height: 580px;
+    background-image: url(./fondo.png);
+}
+
+.images-landing{
+    display: flex;
+    width: 84rem;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+
+}
+
+#rojo { 
+    height: auto;
+    width: 520px;
+    border-radius:5px;
+
+}
+
+#rosa {
+    height: auto;
+    width: 360px;
+    border-radius:5px;
+}
+
+#title-box {
+    display: flex;
+    width: 460px;
+    justify-content: center;
+    position: absolute;
+    top: 13rem;
+    left: 26rem;
+}
+
+#box-2{
+    display: flex;
+    width: 460px;
+    justify-content: center;
+    position: absolute;
+    top: 13.2rem;
+    left: 25.7rem;
+}
+
+.stroke-text {
+    font-family: 'poppins black';
+    font-style: italic;
+    font-size:70px;
+    text-align: center;
+    line-height: 4.3rem;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    color: transparent;
+}
+
+.title {
+    font-family: 'poppins black';
+    font-style: italic;
+    font-size:70px;
+    text-align: center;
+    line-height: 4.3rem;
+    color: #e55381;
+}
+
+.description {
+    display: flex;
+    width: 360px;
+    position: absolute;
+    top: 23rem;
+    left: 35.4rem;
+    font-family: 'poppins';
+    font-size: 18px;
+    color: #fcecc9;
+}
+
+.button {
+    display: flex;
+    width: 210px;
+    padding: 7px 30px;
+    justify-content: center;
+    position: absolute;
+    top: 29.6rem;
+    left: 38rem;
+    font-family: 'poppins medium';
+    font-size: 21px;
+    color: #291720;
+    background-color: #fff5e0;
+    border-radius: 2rem;
+    transition-duration: 500ms;
+    transition-timing-function:cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+.button:hover {
+    box-shadow:
+    6px 9px 30px rgba(0, 0, 0, 0.29);
+    transform: scale(1.04);
+    font-family: 'poppins semibold';
 }
