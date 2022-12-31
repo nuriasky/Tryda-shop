@@ -126,7 +126,7 @@ a {
 main {
     display: flex;
     height: 580px;
-    background-image: url(./fondo.png);
+    background-image: url(./assets/fondo.png);
 }
 
 .images-landing{
