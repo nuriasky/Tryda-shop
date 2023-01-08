@@ -125,8 +125,14 @@ a {
 
 main {
     display: flex;
+    position: static;
     height: 580px;
     background-image: url(./assets/fondo.png);
+}
+
+.first-landing {
+    display: block;
+    position: relative;
 }
 
 .images-landing{
@@ -222,4 +228,13 @@ main {
     6px 9px 30px rgba(0, 0, 0, 0.29);
     transform: scale(1.04);
     font-family: 'poppins semibold';
+}
+
+/* DESCRIPCIÓN */
+#first-description {
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
