@@ -172,7 +172,7 @@ a {
 }
 
 .stroke-text {
-    font-family: 'poppins black';
+    font-weight: 900;
     font-style: italic;
     font-size:70px;
     text-align: center;
@@ -183,7 +183,7 @@ a {
 }
 
 .title {
-    font-family: 'poppins black';
+    font-weight: 900;
     font-style: italic;
     font-size:70px;
     text-align: center;
