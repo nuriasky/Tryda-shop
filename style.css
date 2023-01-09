@@ -124,13 +124,13 @@ a {
 
 /* SECTION */
 
-main {
+.landing {
     box-sizing: border-box;
     background-image: url(./assets/fondo.png);
-    background-attachment:scroll;
     background-repeat: no-repeat;
+    background-attachment: scroll;
+    
 }
-
 
 .images-landing{
     display: flex;
@@ -238,4 +238,56 @@ main {
     background-color: #fff2f6;
     text-align: center;
     font-size: 18px;
+}
+
+/* CARDS */
+
+.card-box {
+    padding: 5rem 2rem 0rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'poppins';
+    font-weight: 700;
+    font-size: 35px;
+    color: #696969;
+}
+
+.cards-section {
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    padding: 0rem;
+    gap: 50px;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+}
+
+
+.picture-cards {
+    height: 100%;
+    width: 100%;
+}
+
+.cards {
+    background-color: #ffe7f6;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    border-radius: 20px;
+    margin: 20px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.info-cards {
+    padding: 2rem 1rem ;
 }
