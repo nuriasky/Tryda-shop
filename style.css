@@ -126,9 +126,8 @@ a {
 
 .landing {
     box-sizing: border-box;
-    background-image: url(./assets/fondo.png);
-    background-repeat: no-repeat;
-    background-attachment: scroll;
+    background: rgb(215,233,254);
+    background: radial-gradient(circle, rgba(215,233,254,1) 0%, rgba(219,164,241,1) 37%, rgba(246,151,193,1) 85%);
     
 }
 
@@ -200,7 +199,7 @@ a {
     left: 35.4rem;
     font-family: 'poppins';
     font-size: 18px;
-    color: #fcecc9;
+    color: #391e46;
 }
 
 .button {
@@ -211,7 +210,7 @@ a {
     position: absolute;
     top: 29.6rem;
     left: 38rem;
-    font-family: 'poppins medium';
+    font-weight: 600;
     font-size: 21px;
     color: #291720;
     background-color: #fff5e0;
@@ -224,7 +223,7 @@ a {
     box-shadow:
     6px 9px 30px rgba(0, 0, 0, 0.29);
     transform: scale(1.04);
-    font-family: 'poppins semibold';
+    font-weight: 700;
 }
 
 /* DESCRIPCIÓN */
@@ -278,7 +277,8 @@ a {
 }
 
 .cards {
-    background-color: #ffe7f6;
+    background: rgb(238,187,219);
+    background: linear-gradient(14deg, rgba(238,187,219,1) 0%, rgba(255,231,246,1) 13%, rgba(255,255,255,1) 30%);
     align-items: center;
     align-content: center;
     text-align: center;
