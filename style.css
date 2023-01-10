@@ -245,7 +245,7 @@ a {
 /* CARDS */
 
 .card-box {
-    padding: 3rem 2rem 0rem 2rem;
+    padding: 3rem 2rem 5rem 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -312,22 +312,46 @@ a {
 
 /* CONTACT US */
 
+hr {
+    width: 1000px;
+    margin: auto;
+    border: 0.2px solid #cfbcd8;
+}
+
 .contact-box {
-    padding: 3rem 1rem;
+    padding: 5rem 1rem 3rem 1rem;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: violet;
+    background-color: rgb(255, 255, 255);
+}
+
+.contact-box h2 {
+
+    font-family: 'dm serif display';
+    text-transform: uppercase;
+    font-style: italic;
+    letter-spacing: 1px;
+    font-size: 45px;
+    text-align: center;
+    color: #3d184e;
+    padding: 0rem 0rem 0.5rem 0rem;
 }
 
 .container2 {
     display: flex;
     width: 100%;
     max-width: 1200px;
-    background-color: yellowgreen;
-    padding: 4rem;
+    background: rgb(234, 243, 253);
+    background: linear-gradient(155deg, rgb(232, 242, 255) 9%, rgba(255,238,243,1) 42%, rgba(255,246,222,1) 75%, rgba(255,255,255,1) 100%);
+    padding: 3rem;
     border-radius: 30px;
     gap: 30px;
+}
+
+.container2 h3 {
+    font-weight: 600;
+    font-size: 21px;
 }
 
 .location {
