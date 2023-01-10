@@ -366,6 +366,10 @@ hr {
     gap: 10px;
 }
 
+.location p {
+    padding: 10px 0;
+}
+
 .container-icons {
     background-color: rgba(0, 255, 255, 0);
     display: flex;
